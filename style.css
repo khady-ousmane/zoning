@@ -1,0 +1,241 @@
+* {
+margin: 0;
+padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    border: 2.5px solid black;
+    width: 60%;
+    block-size: 99vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+
+}
+.container > :nth-child(1)
+{
+    border: 3px solid red ;
+    width: 98%;
+    block-size: 20%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+   
+}
+.container > div:nth-child(1) > div:nth-child(1)
+{
+ width: 98%;
+ margin: 5px auto;
+ display: flex;
+ justify-content: space-between;
+ block-size: 50%;
+}
+
+.container > :nth-child(2) 
+{
+border: 3px solid green ;
+width: 98%;
+block-size: 60%;
+
+
+
+}
+.container > :nth-child(1) > div:nth-child(1)> div:nth-child(1)
+{
+    border:1px solid rgb(233, 94, 94) ;
+    width: 30%;
+    block-size :60%;
+}
+
+.container > :nth-child(3)
+{
+border: 3px solid rgb(4, 4, 80);
+width: 98%;
+block-size: 10%;
+
+
+
+}
+.container > :nth-child(1) > div:nth-child(1)> div:nth-child(2)
+{
+    border:1px solid rgb(233, 94, 94) ;
+    width: 40%;
+    block-size: 70% ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container > div:nth-child(1) > div:nth-child(1) >div:nth-child(2) >*
+{
+border: 1px solid rgb(233, 94, 94) ;
+width: 20%;
+block-size: 60%;
+margin: auto 0;
+}
+.container > div:nth-child(1) > div:nth-child(2)
+{
+    border: 1px solid rgb(233, 94, 94) ;
+    width: 98%;
+    block-size: 40%;
+}
+.container > div:nth-child(2) > div:nth-child(1)
+{
+    border: 2px solid orange;
+    width: 98%;
+    block-size: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px auto;
+}
+ .container > div:nth-child(2) > div:nth-child(1) > div:nth-child(1)
+{
+    border: 1px solid orange;
+    width: 30%;
+    block-size: 75%;
+}
+.container > div:nth-child(2) > div:nth-child(1) > div:nth-child(2)
+{
+    border: 1px solid orange;
+    width: 60%;
+    block-size: 75%;
+    margin-left: 2px;
+}
+.container > div:nth-child(2) > div:nth-child(2)
+{
+    border: 3px solid violet;
+    width: 98%;
+    block-size: 50%;
+    margin-left: 7px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container > div:nth-child(2) > div:nth-child(3)
+{
+border: 3px solid blueviolet;
+width: 98%;
+block-size: 28%;
+margin: 5px auto;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+    
+
+}
+.container > div:nth-child(2) > div:nth-child(2) > div:nth-child(1)
+{
+border: 1px solid blueviolet;
+width: 48%;
+block-size: 40%;
+margin: 5px auto;
+margin-left: 5px;
+}
+.container > div:nth-child(2) > div:nth-child(2) > div:nth-child(2)
+{
+border: 1px solid blueviolet;
+width: 50%;
+block-size: 40%;
+margin: 5px auto;
+margin-right: 5px;
+}
+.container > div:nth-child(2) > div:nth-child(2) > div:nth-child(3)
+{
+    border: 1px solid blueviolet;
+    width: 99%; 
+    block-size: 52%;
+    margin-bottom: 40%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.container > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) >*
+{
+    border: 1px solid blueviolet;
+    width: 30%;
+    block-size: 70%;
+    margin: 20px auto;
+
+}
+.container > div:nth-child(2) > div:nth-child(3) >  div:nth-child(1)
+{
+border: 1px solid rebeccapurple;
+width: 30%;
+block-size: 90%;
+margin: 5px auto;
+margin-left: 15px;
+
+}
+.container > div:nth-child(2) > div:nth-child(3) >  div:nth-child(2) 
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width: 65%;
+block-size: 90%;
+margin: 5px auto;
+}
+
+.container > div:nth-child(2) > div:nth-child(3) >  div:nth-child(2) >  div:nth-child(1)
+{
+    border: 1px solid rebeccapurple;
+    width: 100%;
+    block-size: 45%;
+
+}
+.container > div:nth-child(2) > div:nth-child(3) >  div:nth-child(2) > div:nth-child(2)
+{
+    border: 1px solid rebeccapurple;
+    width: 45%; 
+    block-size: 45%;
+
+}
+.container > div:nth-child(2) > div:nth-child(3) >  div:nth-child(2) >div:nth-child(3)
+{
+    border: 1px solid rebeccapurple;
+    width: 45%; 
+    block-size: 45%;
+
+}
+.container > div:nth-child(3) >div:nth-child(1)
+{
+    width: 90%;
+    block-size: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container > div:nth-child(3) >div:nth-child(1)> div:nth-child(1) 
+{
+border: 1px solid rgb(8, 8, 180);
+width: 35%;
+block-size: 65%;
+}
+.container > div:nth-child(3) >div:nth-child(1) >div:nth-child(2) 
+{
+    border: 1px solid rgb(8, 8, 180);
+     width: 35%;
+    block-size: 65%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container > div:nth-child(3) >div:nth-child(1) >div:nth-child(2) >*
+{
+    border: 1px solid rgb(8, 8, 180);
+    width: 30%;
+    block-size: 60%;
+    margin-top: 3%;
+    
+}
